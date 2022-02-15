@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.2/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene environment="preset: dream; dressingAmount: 500" >
+      
+      <a-cone position="1 1.25 -5" radius="2" color="#FFFFFF" shadow></a-cone>
+      <a-cone position="1 1.9 -5" radius="1.00" color="#FFFFFF" shadow></a-cone>
+      <a-cone position="1 2.50 -5" radius=".75" color="#FFFFFF" shadow></a-cone>
+      <a-cylinder position="1 1 -5" radius="0.2" height="1.5" color="brown" shadow></a-cylinder>
+      
+      
+      <a-cone position="5 1.5 -5" radius-bottom=".5" radius-top="0" height="1.5" color="#FFFFFF" shadow></a-cone>
+      <a-cone position="5 2. -5" radius-bottom=".4" radius-top="0" height="1.5" color="#FFFFFF" shadow></a-cone>
+      <a-cone position="5 2.5 -5" radius-bottom=".3" radius-top="0" height="1.5" color="#FFFFFF" shadow></a-cone>
+      <a-cylinder position="5 1 -5" radius="0.1" height="2" color="brown" shadow></a-cylinder>
+      
+      
+      
+            <a-cone position="10 1.5 -5" radius-bottom=".3" radius-top="0" height="1.5"  color="#FFFFFF" shadow></a-cone>
+      
+      
+      <a-cone position="10 2. -5" radius-bottom=".25" radius-top="0" height="1.5"  color="#FFFFFF" shadow></a-cone>
+      
+      <a-cone position="10 2.5 -5" radius-bottom=".2" radius-top="0" height="1.5" color="#FFFFFF" shadow></a-cone>
+      
+                 <a-cone position="10 3 -5" radius-bottom=".15" radius-top="0" height="1.5"  color="#FFFFFF" shadow></a-cone>
+      
+      <a-cylinder position="10 1 -5" radius="0.05" height="2" color="brown" shadow></a-cylinder>
+ 
+    </a-scene>
+  </body>
+</html>
